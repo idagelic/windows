@@ -1,6 +1,8 @@
 {
     "name": "Docker Compose Dev Container",
-    "dockerComposeFile": "docker-compose.yml",
+    "dockerComposeFile": [
+        "../compose.yml"
+    ],
     "service": "windows",
     "workspaceFolder": "/workspace",
     "settings": {
