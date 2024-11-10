@@ -1,17 +1,6 @@
 {
-    "name": "Docker Compose Dev Container",
-    "dockerComposeFile": [
-        "../compose.yml"
-    ],
-    "service": "windows",
-    "workspaceFolder": "/workspace",
-    "settings": {
-        "terminal.integrated.defaultProfile.linux": "/bin/sh"
-    },
-
-    "extensions": [
-        "ms-azuretools.vscode-docker"
-    ],
-
-    "remoteUser": "Docker"
+	"name": "Dockurr",
+	"dockerComposeFile": "../compose.yml",
+	"service": "windows",
+	"workspaceFolder": "/"
 }
